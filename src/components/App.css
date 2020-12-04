@@ -1,0 +1,12 @@
+.App {
+  background: #fff;
+  color: #333;
+  display: grid;
+  grid-template-columns: 17rem 45rem auto;
+  min-height: 100vh;
+  transition: background 0.2s;
+}
+
+.side-container {
+  height: 100vh;
+}

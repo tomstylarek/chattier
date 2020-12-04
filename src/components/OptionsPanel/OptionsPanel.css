@@ -1,0 +1,19 @@
+.OptionsPanel {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem;
+}
+
+.OptionsPanel-theme {
+  cursor: pointer;
+  position: relative;
+}
+
+.OptionsPanel-theme img {
+  width: 2rem;
+}
+
+.light-mode-icon {
+  transform: scale(1.2);
+}

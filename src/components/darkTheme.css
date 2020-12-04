@@ -1,0 +1,237 @@
+.App--dark {
+  background: #222;
+  color: #eee;
+}
+
+/* Side Panel */
+
+.App--dark .SidePanel::-webkit-scrollbar-thumb {
+  background-color: #333;
+}
+
+.App--dark .SidePanel::-webkit-scrollbar-thumb:hover {
+  background-color: #444;
+}
+
+.App--dark .UserPanel {
+  background: #444;
+  border: 1px solid #444;
+}
+
+.App--dark .UserPanel-info__settings img {
+  width: 1.25rem;
+}
+
+.App--dark .UserPanel-settings-dropdown {
+  background-color: #444;
+  border: 1px solid #444;
+}
+
+.App--dark .UserPanel-settings-dropdown li:hover {
+  background-color: #555;
+}
+
+.App--dark .settings-change-avatar {
+  border-bottom: 1px solid #666;
+}
+
+/* Channels */
+
+.App--dark .Channels:hover {
+  background-color: #444;
+}
+
+.App--dark .Channels-add img:hover {
+  background-color: #333;
+}
+
+.App--dark .Channel-counter {
+  background-color: #333;
+}
+
+/* Add channel window */
+
+.App--dark .add-channel-window {
+  background-color: #444;
+  border: none;
+}
+
+.App--dark .add-btn {
+  background: #a3c2dd;
+}
+
+.App--dark .cancel-btn {
+  background-color: #c58ba0;
+}
+
+/* Channel items */
+
+.App--dark .channel-item:hover {
+  background: #333;
+}
+
+.App--dark .active,
+.App--dark .active:hover {
+  background-color: #444;
+}
+
+/* Messages */
+
+.App--dark .Messages-window {
+  background-color: #333;
+}
+
+.App--dark .Messages-window::-webkit-scrollbar-thumb {
+  background-color: #444;
+}
+
+.App--dark .Messages-window::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Messages Form */
+
+.App--dark .MessagesForm {
+  background: #222;
+}
+
+.App--dark .MessagesForm-upload-media {
+  background-color: #222;
+}
+
+.App--dark .MessagesForm-upload-media:hover {
+  background: #333;
+}
+
+.App--dark .MessagesForm-input {
+  background: #222;
+  border: 2px solid #333;
+  color: #eee;
+}
+
+.App--dark .MediaModal {
+  background-color: #82d1d8;
+}
+
+/* Message */
+
+.App--dark .Message {
+  background: #222;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.App--dark .Message__content {
+  color: #eee;
+}
+
+.App--dark .Message__time {
+  color: #bbb;
+}
+
+.App--dark .self-message {
+  background: #433aff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.App--dark .self-message-searched,
+.App--dark .message-searched {
+  background: #1c294d;
+}
+
+/* Messages header */
+
+.App--dark .Messages-header {
+  background-color: #444;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.App--dark .Messages-header-info__users {
+  color: #999;
+}
+
+.App--dark .Messages-header-search button img {
+  width: 2.4rem;
+  height: 2.4rem;
+  transform: translatey(0.1rem);
+}
+
+.App--dark .Messages-header-search button:hover {
+  background: #333;
+}
+
+/* Search tab */
+
+.App--dark .Messages-search-tab {
+  background-color: #444;
+  border-left: 1px solid #222;
+}
+
+.App--dark .Messages-search-tab::-webkit-scrollbar-thumb {
+  background-color: #555;
+}
+
+.App--dark .Messages-search-tab-header {
+  background: #333;
+}
+
+.App--dark .Messages-search-tab-header button img {
+  width: 1.5rem;
+  transform: translate(0.25rem, 0.3rem);
+}
+
+.App--dark .Messages-search-tab-header button:hover {
+  background: #444;
+}
+
+.App--dark .Messages-search-tab-header input {
+  background-color: #444;
+  color: #eee;
+}
+
+.App--dark .search-tab-content-item {
+  border-bottom: 1px solid #333;
+  color: #eee;
+}
+
+.App--dark .search-tab-content-item:hover {
+  background: #555;
+}
+
+/* MetaPanel */
+
+.App--dark .MetaPanel {
+  background-color: #444;
+  border: 1px solid #444;
+}
+
+.App--dark .MetaPanel-field {
+  border-bottom: 1px solid #333;
+}
+
+.App--dark .MetaPanel-field p {
+  color: #999;
+}
+
+/* Skeleton */
+
+.App--dark .Skeleton {
+  background: #222;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.App--dark .Skeleton::after {
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    rgba(100, 100, 100, 0.4),
+    transparent
+  );
+}
+
+.App--dark .Skeleton__avatar {
+  background: #333;
+}
+
+.App--dark .Skeleton-details__text {
+  background: #333;
+}

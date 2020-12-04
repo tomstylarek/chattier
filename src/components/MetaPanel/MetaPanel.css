@@ -1,0 +1,29 @@
+.MetaPanel-component {
+  padding: 0 1rem 1rem 0;
+}
+
+.MetaPanel {
+  background: #f3f7f8;
+  border: 1px solid #d4d8d9;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.MetaPanel-field {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #d4d8d9;
+}
+
+.MetaPanel-field h5 {
+  font-size: 1.2rem;
+  font-variant: small-caps;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.MetaPanel-field p {
+  color: #555;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}

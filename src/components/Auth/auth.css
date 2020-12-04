@@ -1,0 +1,168 @@
+.Register {
+  background-color: #202847;
+  background-image: linear-gradient(135deg, #202847 0%, #764ba2 100%);
+}
+
+.Login {
+  background-color: #adf7b6;
+  background-image: linear-gradient(135deg, #adf7b6 0%, #a0ced9 100%);
+}
+
+.auth-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-form {
+  background-color: rgba(32, 40, 71, 0.5);
+}
+
+.login-form {
+  background-color: rgba(134, 172, 181, 0.5);
+}
+
+.login-field {
+  background-color: rgba(134, 172, 181, 0.5) !important;
+}
+
+.login-field:focus {
+  box-shadow: inset 0px -8px 30px 2px #7fa4c7 !important;
+}
+
+.register-btn {
+  background: rgb(245, 114, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 114, 176, 1) 0%,
+    rgba(249, 103, 99, 1) 100%
+  );
+  color: #eee;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 1rem;
+  width: 9rem;
+  outline: none;
+}
+
+.redirect {
+  color: #eee;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.redirect a {
+  color: #f572b0;
+}
+
+.login-redirect a {
+  color: #f96763;
+}
+
+.error-message {
+  height: 1rem;
+  font-size: small;
+  color: #ff3a35;
+  max-width: 20rem;
+  margin: auto;
+  margin-top: -0.5rem;
+}
+
+.login-error-message {
+  color: #e56b6f;
+}
+
+.field-error {
+  border: 2px solid #ff3a35 !important;
+}
+
+.login-field-error {
+  border: 2px solid #e56b6f !important;
+}
+
+/* loader animation for button */
+.btn-loader {
+  font-size: 0.5rem;
+  margin: auto;
+  text-indent: -9999em;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background: #ffffff;
+  background: -moz-linear-gradient(
+    left,
+    #ffffff 10%,
+    rgba(255, 255, 255, 0) 42%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #ffffff 10%,
+    rgba(255, 255, 255, 0) 42%
+  );
+  background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+  background: -ms-linear-gradient(
+    left,
+    #ffffff 10%,
+    rgba(255, 255, 255, 0) 42%
+  );
+  background: linear-gradient(
+    to right,
+    #ffffff 10%,
+    rgba(255, 255, 255, 0) 42%
+  );
+  position: relative;
+  -webkit-animation: load3 1.4s infinite linear;
+  animation: load3 1.4s infinite linear;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.btn-loader:before {
+  width: 50%;
+  height: 50%;
+  background: #ffffff;
+  border-radius: 100% 0 0 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+}
+.btn-loader:after {
+  background: rgb(245, 114, 176);
+  background: linear-gradient(
+    90deg,
+    rgba(245, 114, 176, 1) 0%,
+    rgba(249, 103, 99, 1) 100%
+  );
+  width: 75%;
+  height: 75%;
+  border-radius: 50%;
+  content: "";
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+@-webkit-keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load3 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
