@@ -11,4 +11,4 @@ Some of the functionalities that I implemented are:
 - Dark theme.
 
 I used React for the UI and Firebase to use storage, the database, auth and hosting.
-You can use it at [https://slack-app-cc624.web.app](https://slack-app-cc624.web.app). Create an account, is really quick. It doesn't ask for comfirmation.
+You can use it at [https://slack-app-cc624.web.app](https://slack-app-cc624.web.app). Create an account, it's really quick. It doesn't ask for confirmation.
