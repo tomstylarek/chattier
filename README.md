@@ -1,6 +1,6 @@
 # chattier
 
-Chattier is a simple messaging application. It works with global channels that the user can create, and also you can send direct messages to indivitual users.
+Chattier is a simple messaging application. It works with global channels that the user can create, and you can send direct messages to indivitual users.
 
 Some of the functionalities that I implemented are:
 
